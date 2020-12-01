@@ -3,24 +3,125 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2777803-144a-42fa-a137-97b4ec3cd4b0" name="Default Changelist" comment="" />
+    <list default="true" id="b2777803-144a-42fa-a137-97b4ec3cd4b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/CevicheOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/common/common_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/end/frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/end/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/end/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/d0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/d1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/d2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/d3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/d4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/d5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/d6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/w8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/menu/1_start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/menu/2_share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/menu/3_ranking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/menu/4_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/menu/5_settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/menu/candy_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/menu/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pause/frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pause/quit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pause/resume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playground/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playground/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common/ScreenSize.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/UserData.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entities/AnimatedEntity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entities/BaseEntity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entities/Enemy.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entities/EntityState.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/entities/Santa.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/game/GameMaster.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/game/PlayerStats.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/EndScreeen/EndScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/MenuScreen/MenuScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/PlayScreen/PauseWidget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/PlayScreen/PlayGround.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/ScreenManager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/ScreenState.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/Background.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/BaseWidget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/StaticEntity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/StaticText.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kvMDvwjwFzl829aLAR7jDRcGVL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\xmas_sprint_original\lib\screens\EndScreeen" />
+      <recent name="E:\Projects\xmas_sprint_original\lib\screens\PlayScreen" />
+      <recent name="E:\Projects\xmas_sprint_original\lib\screens\MenuScreen" />
+      <recent name="E:\Projects\xmas_sprint_original\assets\fonts" />
+      <recent name="E:\Projects\xmas_sprint_original\lib\screens\Widgets" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,26 +136,49 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1606576616531">
+    <state x="18" y="263" width="1350" height="638" key="AVDManager" timestamp="1606780796849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="AVDManager/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606576616531" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1606576628068">
+    <state x="18" y="263" width="1350" height="638" key="AVDManager/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606780796849" />
+    <state width="1877" height="442" key="GridCell.Tab.0.bottom" timestamp="1606781983075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606576628068" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1606576628068">
+    <state width="1877" height="442" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606781983075" />
+    <state width="1877" height="442" key="GridCell.Tab.0.center" timestamp="1606781983075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606576628068" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1606576628068">
+    <state width="1877" height="442" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606781983075" />
+    <state width="1877" height="442" key="GridCell.Tab.0.left" timestamp="1606781983075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606576628068" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1606576628068">
+    <state width="1877" height="442" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606781983075" />
+    <state width="1877" height="442" key="GridCell.Tab.0.right" timestamp="1606781983075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606576628068" />
+    <state width="1877" height="442" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606781983075" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1606775091527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="585" height="801" key="find.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606775091527" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1606774928757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606774928757" />
   </component>
 </project>
