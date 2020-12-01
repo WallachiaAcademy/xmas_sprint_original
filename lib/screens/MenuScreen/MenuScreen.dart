@@ -37,6 +37,9 @@ class MenuScreen extends BaseWidget {
     _startButton.onTapDown(detail, () {
       screenManager.switchScreen(ScreenState.kPlayScreen);
     });
+    _infoButton.onTapDown(detail, () {
+      screenManager.switchScreen(ScreenState.kInfoScreen);
+    });
   }
 
   @override

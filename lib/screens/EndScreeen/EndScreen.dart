@@ -21,7 +21,6 @@ class EndScreen extends BaseWidget {
   StaticEntity _home;
 
   EndScreen() {
-    print("New end score!" + DateTime.now().toString());
     _bg = Background('common/common_bg.png');
     _frame = StaticEntity('end/frame.png');
     _curScore = StaticText(

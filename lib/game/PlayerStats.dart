@@ -64,7 +64,10 @@ class PlayerStats extends BaseWidget {
   void update(double t) {}
 
   void increaseHp() {
-    if (_hpCount < 5) _hpCount++;
+    if (_hpCount < 5)
+      _hpCount++;
+    else
+      _score += 15;
   }
 
   void increaseScore() {
@@ -73,9 +76,9 @@ class PlayerStats extends BaseWidget {
   }
 
   void decreaseHp() {
-    if (_hpCount > 0) {
-      _hpCount--;
-    } else {
+    //if (_hpCount > 0) _hpCount--;
+
+    if (_hpCount <= 0) {
       _dumpData();
     }
   }
@@ -92,5 +95,9 @@ class PlayerStats extends BaseWidget {
 
   void _dumpData() {
     userData.setScore(_score);
+  }
+
+  int getScore() {
+    return _score;
   }
 }

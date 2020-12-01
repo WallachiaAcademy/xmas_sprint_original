@@ -8,6 +8,8 @@ import 'package:xmas_sprint/entities/Santa.dart';
 import 'package:xmas_sprint/game/PlayerStats.dart';
 import 'package:xmas_sprint/utils/BaseWidget.dart';
 
+import '../Constants.dart';
+
 class GameMaster extends BaseWidget {
   List<BaseEntity> _entities;
   int _santaCount;
@@ -16,7 +18,7 @@ class GameMaster extends BaseWidget {
 
   GameMaster() {
     _entities = List<BaseEntity>();
-    _speed = 60;
+    _speed = 40;
 
     _santaCount = 15;
     _playerStats = PlayerStats();
@@ -64,11 +66,12 @@ class GameMaster extends BaseWidget {
       var nrOfEntities = 1;
 
       // 5 seconds => 1 speed
-      if (_speed < 50) {
+      if (_speed > 35) {
+      } else if (_speed > 30) {
         nrOfEntities += random.nextInt(2);
-      } else if (_speed < 40) {
+      } else if (_playerStats.getScore() < 700) {
         nrOfEntities += random.nextInt(3);
-      } else if (_speed < 20) {
+      } else {
         nrOfEntities += random.nextInt(4);
       }
       List<int> _offsets = [0, 1, 2, 3];
@@ -91,7 +94,7 @@ class GameMaster extends BaseWidget {
           var assetIdx = random.nextInt(3);
           var e = Enemy(
             'enemies/$assetIdx',
-            _offsets[i] / 5,
+            _offsets[i] / 5 + kEnemyStandardGap,
             _playerStats.decreaseHp,
             _playerStats.increaseScore,
           );
@@ -104,7 +107,7 @@ class GameMaster extends BaseWidget {
   }
 
   void _updateEntities(double t) {
-    _speed -= t;
+    _speed -= t / 4;
     if (_speed < 15) _speed = 15;
 
     for (var e in _entities) {

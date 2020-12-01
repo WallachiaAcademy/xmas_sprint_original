@@ -2,6 +2,8 @@ import 'dart:ui';
 
 import 'package:flutter/src/gestures/tap.dart';
 import 'package:xmas_sprint/Constants.dart';
+import 'package:xmas_sprint/audio/MusicPlayer.dart';
+import 'package:xmas_sprint/data/UserData.dart';
 import 'package:xmas_sprint/game/GameMaster.dart';
 import 'package:xmas_sprint/screens/ScreenManager.dart';
 import 'package:xmas_sprint/screens/ScreenState.dart';
@@ -16,6 +18,8 @@ class PlayGround extends BaseWidget {
   GameMaster _gameMaster;
   PauseWidget _pauseWidget;
   StaticEntity _pauseButton;
+  StaticEntity _musicOn;
+  StaticEntity _musicOff;
 
   bool _gameOver = false;
   bool _pause = false;
@@ -31,6 +35,9 @@ class PlayGround extends BaseWidget {
       _gameMaster.die();
       screenManager.switchScreen(ScreenState.kEndScreen);
     });
+
+    _musicOn = StaticEntity('playground/music_on.png');
+    _musicOff = StaticEntity('playground/music_off.png');
   }
   @override
   void onTapDown(TapDownDetails detail, Function fn) {
@@ -42,6 +49,11 @@ class PlayGround extends BaseWidget {
         _pauseButton.onTapDown(detail, () {
           _pause = true;
         });
+
+        _musicOn.onTapDown(detail, () {
+          userData.toggleMusic();
+          musicPlayer.update();
+        });
       }
     }
   }
@@ -52,6 +64,11 @@ class PlayGround extends BaseWidget {
     _gameMaster.render(canvas);
     _pauseButton.render(canvas);
 
+    if (userData.shallPlayMusic())
+      _musicOn.render(canvas);
+    else
+      _musicOff.render(canvas);
+
     if (_pause) {
       _pauseWidget.render(canvas);
     }
@@ -61,14 +78,27 @@ class PlayGround extends BaseWidget {
   void resize() {
     _bg.resize();
     _pauseButton.resize(
-      wR: kPlaygroundPauseWidthRatio,
-      hR: kPlaygroundPauseHeightRatio,
+      wR: kPlaygroundButtonWidthRatio,
+      hR: kPlaygroundButtonHeightRatio,
       xR: kPlaygroundPauseButtonXRatio,
       yR: kPlaygroundPauseButtonYRatio,
     );
 
     _gameMaster.resize();
     _pauseWidget.resize();
+
+    _musicOn.resize(
+      wR: kPlaygroundButtonWidthRatio,
+      hR: kPlaygroundButtonHeightRatio,
+      xR: kPlaygroundMusicButtonXRatio,
+      yR: kPlaygroundMusicButtonYRatio,
+    );
+    _musicOff.resize(
+      wR: kPlaygroundButtonWidthRatio,
+      hR: kPlaygroundButtonHeightRatio,
+      xR: kPlaygroundMusicButtonXRatio,
+      yR: kPlaygroundMusicButtonYRatio,
+    );
   }
 
   @override
@@ -84,5 +114,18 @@ class PlayGround extends BaseWidget {
         }
       }
     }
+
+    _musicOn.resize(
+      wR: kPlaygroundButtonWidthRatio,
+      hR: kPlaygroundButtonHeightRatio,
+      xR: kPlaygroundMusicButtonXRatio,
+      yR: kPlaygroundMusicButtonYRatio,
+    );
+    _musicOff.resize(
+      wR: kPlaygroundButtonWidthRatio,
+      hR: kPlaygroundButtonHeightRatio,
+      xR: kPlaygroundMusicButtonXRatio,
+      yR: kPlaygroundMusicButtonYRatio,
+    );
   }
 }

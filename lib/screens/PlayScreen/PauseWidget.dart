@@ -54,7 +54,5 @@ class PauseWidget extends BaseWidget {
   }
 
   @override
-  void update(double t) {
-    // TODO: implement update
-  }
+  void update(double t) {}
 }

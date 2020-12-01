@@ -1,9 +1,9 @@
 // Menu
 
-const double kMenuLogoWidthRatio = 0.8;
-const double kMenuLogoHeightRatio = 0.4;
-const double kMenuLogoXRatio = 0.1;
-const double kMenuLogoYRatio = 0.1;
+const double kMenuLogoWidthRatio = 0.7;
+const double kMenuLogoHeightRatio = 0.55;
+const double kMenuLogoXRatio = 0.15;
+const double kMenuLogoYRatio = 0.05;
 
 const double kMenuCandyBarWidthRatio = 0.6;
 const double kMenuCandyBarHeightRatio = 0.15;
@@ -29,14 +29,18 @@ const double kMenuSettingsButtonXRatio = 0.684;
 const double kMenuSettingsButtonYRatio = 0.74;
 
 // PlayGround
-const double kPlaygroundPauseWidthRatio = 0.08;
-const double kPlaygroundPauseHeightRatio = 0.09;
+const double kPlaygroundButtonWidthRatio = 0.08;
+const double kPlaygroundButtonHeightRatio = 0.09;
+
 const double kPlaygroundPauseButtonXRatio = 0.9;
 const double kPlaygroundPauseButtonYRatio = 0.9;
 
+const double kPlaygroundMusicButtonXRatio = 0.8;
+const double kPlaygroundMusicButtonYRatio = 0.9;
+
 const double kPlaygroundHpWidthRatio = 0.0675;
 const double kPlaygroundHpHeightRatio = 0.12;
-const double kPlaygroundHpXRatio = 0.9;
+const double kPlaygroundHpXRatio = 0.8;
 const double kPlaygroundHpYRatio = 0.88;
 const double kPlaygroundHpGapRatio = 1.1;
 
@@ -47,6 +51,7 @@ const double kPlaygroundScoreCenterYRatio = 0.94;
 // Enemies
 const double kEnemyWidthRatio = 0.15;
 const double kEnemyHeightRatio = 0.2;
+const double kEnemyStandardGap = 0.02;
 
 // Pause Screen Widget
 const double kPauseFrameWidthRatio = 0.5;
@@ -85,3 +90,39 @@ const double kEndPlayButtonXRatio = 0.34;
 const double kEndPlayButtonYRatio = 0.62;
 const double kEndHomeButtonXRatio = 0.54;
 const double kEndHomeButtonYRatio = 0.62;
+
+// Info Screen
+const double kInfoHomeButtonWidthRatio = 0.1;
+const double kInfoHomeButtonHeightRatio = 0.12;
+const double kInfoHomeButtonXRatio = 0.45;
+const double kInfoHomeButtonYRatio = 0.77;
+
+// Info - Left & right buttons
+const double kInfoSwapButtonWidthRatio = 0.06;
+const double kInfoSwapButtonHeightRatio = 0.12;
+const double kInfoLeftButtonXRatio = 0.3;
+const double kInfoLeftButtonYRatio = 0.77;
+const double kInfoRightButtonXRatio = 0.64;
+const double kInfoRightButtonYRatio = 0.77;
+
+// Info - Layers
+const double kInfoLayerWidthRatio = 0.84;
+const double kInfoLayerHeightRatio = 0.6;
+const double kInfoLayerXRatio = 0.08;
+const double kInfoLayerYRatio = 0.15;
+
+// Info - Media
+
+const double kInfoMediaWidthRatio = 0.06;
+const double kInfoMediaHeightRatio = 0.1;
+const double kInfoMediaFbXRatio = 0.08;
+const double kInfoMediaFbYRatio = 0.64;
+
+const double kInfoMediaInstaXRatio = 0.18;
+const double kInfoMediaInstaYRatio = 0.64;
+
+const double kInfoMediaYtXRatio = 0.28;
+const double kInfoMediaYtYRatio = 0.64;
+
+// Loading
+const double kLoadingFontRatio = 0.15;
