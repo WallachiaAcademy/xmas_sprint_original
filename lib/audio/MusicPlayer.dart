@@ -7,6 +7,7 @@ MusicPlayer musicPlayer = MusicPlayer();
 class MusicPlayer {
   bool _musicIsPlaying = false;
   AudioPlayer _player = null;
+
   Future<void> update() async {
     try {
       Flame.audio.disableLog();
@@ -29,6 +30,34 @@ class MusicPlayer {
           }
         }
       }
+    } catch (Exception) {}
+  }
+
+  Future<void> candyDie() async {
+    try {
+      if (userData.shallPlaySong()) {
+        await Flame.audio.play('breaking.ogg');
+      }
+    } catch (Exception) {}
+  }
+
+  Future<void> santaDie() async {
+    try {
+      if (userData.shallPlaySong()) {
+        await Flame.audio.play('santa.wav');
+      }
+    } catch (Exception) {}
+  }
+
+  void resume() {
+    try {
+      if (userData.shallPlayMusic() && _player != null) _player.resume();
+    } catch (Exception) {}
+  }
+
+  void pause() {
+    try {
+      if (userData.shallPlayMusic() && _player != null) _player.pause();
     } catch (Exception) {}
   }
 }

@@ -18,6 +18,7 @@ abstract class AnimatedEntity extends BaseEntity {
 
   final double _yOffset;
   final Function onComplete;
+  final Function onHit;
   final Function onDie;
 
   AnimatedEntity(
@@ -28,6 +29,7 @@ abstract class AnimatedEntity extends BaseEntity {
     double secondAnySpeed,
     this._yOffset,
     this.onComplete,
+    this.onHit,
     this.onDie,
   ) {
     _state = EntityState.Normal;
@@ -39,6 +41,7 @@ abstract class AnimatedEntity extends BaseEntity {
     _normal = AnimationComponent(
         0, 0, Animation.spriteList(_sprites, stepTime: firstAnySpeed));
 
+    _sprites.clear();
     for (int i = 0; i < secondAnyCount; i++) {
       _sprites.add(Sprite('$aniPath/d$i.png'));
     }
@@ -59,7 +62,7 @@ abstract class AnimatedEntity extends BaseEntity {
       if (pos.dx >= _normal.x && pos.dx <= _normal.x + _normal.width) {
         if (pos.dy >= _normal.y && pos.dy <= _normal.y + _normal.height) {
           _state = EntityState.Dying;
-          onDie();
+          onHit();
         }
       }
     }
@@ -68,7 +71,6 @@ abstract class AnimatedEntity extends BaseEntity {
   @override
   void render(Canvas canvas) {
     canvas.save();
-
     if (_state == EntityState.Normal) {
       _normal.x = _x;
       _normal.render(canvas);
@@ -106,6 +108,7 @@ abstract class AnimatedEntity extends BaseEntity {
       _die.update(t);
       if (_die.animation.done()) {
         _state = EntityState.Dead;
+        onDie();
       }
     }
   }

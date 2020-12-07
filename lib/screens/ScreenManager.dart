@@ -7,6 +7,7 @@ import 'package:flame/gestures.dart';
 import 'package:flame/util.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
+import 'package:xmas_sprint/ads/AdsManager.dart';
 import 'package:xmas_sprint/audio/MusicPlayer.dart';
 import 'package:xmas_sprint/common/ScreenSize.dart';
 import 'package:xmas_sprint/data/UserData.dart';
@@ -82,6 +83,7 @@ class ScreenManager extends Game with TapDetector {
       'enemies/0/d5.png',
       'enemies/0/d6.png',
       'enemies/0/d7.png',
+      'enemies/0/d8.png',
       'enemies/0/w0.png',
       'enemies/0/w1.png',
       'enemies/0/w2.png',
@@ -99,6 +101,7 @@ class ScreenManager extends Game with TapDetector {
       'enemies/1/d5.png',
       'enemies/1/d6.png',
       'enemies/1/d7.png',
+      'enemies/1/d8.png',
       'enemies/1/w0.png',
       'enemies/1/w1.png',
       'enemies/1/w2.png',
@@ -116,6 +119,7 @@ class ScreenManager extends Game with TapDetector {
       'enemies/2/d5.png',
       'enemies/2/d6.png',
       'enemies/2/d7.png',
+      'enemies/2/d8.png',
       'enemies/2/w0.png',
       'enemies/2/w1.png',
       'enemies/2/w2.png',
@@ -182,8 +186,13 @@ class ScreenManager extends Game with TapDetector {
     ]);
 
     await Flame.audio.loadAll(['song.ogg']);
+    await Flame.audio.loadAll(['breaking.ogg']);
+    await Flame.audio.loadAll(['santa.wav']);
 
     musicPlayer.update();
+    try {
+      AdsManager.instance.cacheAd();
+    } catch (Exception) {}
 
     switchScreen(ScreenState.kMenuScreen);
   }
@@ -251,6 +260,16 @@ class ScreenManager extends Game with TapDetector {
           _screenState = ScreenState.kMenuScreen;
         });
         break;
+    }
+  }
+
+  @override
+  void lifecycleStateChange(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      musicPlayer.resume();
+    }
+    if (state == AppLifecycleState.paused) {
+      musicPlayer.pause();
     }
   }
 }

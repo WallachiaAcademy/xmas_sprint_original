@@ -28,70 +28,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2777803-144a-42fa-a137-97b4ec3cd4b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/settings_aar.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/song.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/1_fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/1_intro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/2_insta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/2_santa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/3_candy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/3_yt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/4_final.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/info/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/playground/music_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/playground/music_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/info.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/promo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/promo.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/xmas_sprint.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/audio/MusicPlayer.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/InfoScreen/InfoScreen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/LoadingScreen/LoadingScreen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/todo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/audio/breaking.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/audio/santa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/0/d8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/1/d8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/enemies/2/d8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playground/song_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playground/song_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/publish/feature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/publish/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/publish/icon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/publish/screenShots/1_main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/publish/screenShots/2_playground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/publish/screenShots/3_final.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/publish/screenShots/4_story.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ads/AdsManager.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/menu/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/menu/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/0/d0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/0/d0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/0/d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/0/d1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/0/d2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/0/d2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/0/d3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/0/d3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/0/d4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/0/d4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/0/d5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/0/d5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/0/d6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/0/d6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/0/d7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/0/d7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/1/d0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/1/d0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/1/d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/1/d1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/1/d2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/1/d2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/1/d3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/1/d3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/1/d4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/1/d4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/1/d5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/1/d5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/1/d6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/1/d6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/1/d7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/1/d7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/2/d0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/2/d0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/2/d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/2/d1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/2/d2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/2/d2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/2/d3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/2/d3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/2/d4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/2/d4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/2/d5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/2/d5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/2/d6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/2/d6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/enemies/2/d7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/enemies/2/d7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/info/2_santa.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/info/2_santa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/info.psd" beforeDir="false" afterPath="$PROJECT_DIR$/design/info.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/promo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/promo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/audio/MusicPlayer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/audio/MusicPlayer.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data/UserData.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/UserData.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/entities/AnimatedEntity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/entities/AnimatedEntity.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/entities/Enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/entities/Enemy.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/entities/Santa.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/entities/Santa.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/game/GameMaster.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/game/GameMaster.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/game/PlayerStats.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/game/PlayerStats.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/EndScreeen/EndScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/EndScreeen/EndScreen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/MenuScreen/MenuScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/MenuScreen/MenuScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/PlayScreen/PauseWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/PlayScreen/PauseWidget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/PlayScreen/PlayGround.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/PlayScreen/PlayGround.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/ScreenManager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/ScreenManager.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/ScreenState.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/ScreenState.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,6 +116,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
@@ -146,6 +145,9 @@
       <updated>1606576495745</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -175,41 +177,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606823157563" />
-    <state x="14" y="192" width="1350" height="638" key="AVDManager" timestamp="1606836425170">
+    <state x="113" y="89" width="864" height="397" key="AVDManager" timestamp="1607368558784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="14" y="192" width="1350" height="638" key="AVDManager/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606836425170" />
+    <state x="113" y="89" width="864" height="397" key="AVDManager/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607368558784" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606837952495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606837952495" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1606837997685">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1607368910096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606837997685" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1606837997685">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607368910096" />
+    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1607368910096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606837997685" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1606837997685">
+    <state width="1877" height="356" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607368910096" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1607368910095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606837997685" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1606837997685">
+    <state width="1877" height="356" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607368910095" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1607368910096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606837997685" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1606837614962">
+    <state width="1877" height="356" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607368910096" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1607355046496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606837614962" />
+    <state x="667" y="119" width="585" height="801" key="find.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607355046496" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1606774928757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606774928757" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606835352470">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607367179432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606835352470" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607367179432" />
   </component>
 </project>

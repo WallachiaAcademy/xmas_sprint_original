@@ -76,7 +76,7 @@ class PlayerStats extends BaseWidget {
   }
 
   void decreaseHp() {
-    //if (_hpCount > 0) _hpCount--;
+    if (_hpCount > 0) _hpCount--;
 
     if (_hpCount <= 0) {
       _dumpData();

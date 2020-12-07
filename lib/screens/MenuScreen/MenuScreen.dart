@@ -1,6 +1,8 @@
 import 'dart:ui';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/src/gestures/tap.dart';
+import 'package:share/share.dart';
 import 'package:xmas_sprint/Constants.dart';
 import 'package:xmas_sprint/screens/ScreenManager.dart';
 import 'package:xmas_sprint/screens/ScreenState.dart';
@@ -40,6 +42,7 @@ class MenuScreen extends BaseWidget {
     _infoButton.onTapDown(detail, () {
       screenManager.switchScreen(ScreenState.kInfoScreen);
     });
+    _shareButton.onTapDown(detail, _shareOnMedia);
   }
 
   @override
@@ -108,4 +111,16 @@ class MenuScreen extends BaseWidget {
 
   @override
   void update(double t) {}
+
+  void _shareOnMedia() {
+    try {
+      String msg = 'Santa is calling for heroes to save Christmas:\n';
+      Share.share(
+        msg +
+            "\nhttps://play.google.com/store/apps/details?id=com.wallachiaacademy.xmas_sprint",
+      );
+    } catch (ex) {
+      print(ex);
+    }
+  }
 }

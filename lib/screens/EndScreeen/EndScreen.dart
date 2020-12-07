@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart' as STL;
 import 'package:flutter/src/gestures/tap.dart';
 import 'package:xmas_sprint/Constants.dart';
+import 'package:xmas_sprint/ads/AdsManager.dart';
 import 'package:xmas_sprint/data/UserData.dart';
 import 'package:xmas_sprint/screens/ScreenManager.dart';
 import 'package:xmas_sprint/screens/ScreenState.dart';
@@ -47,10 +48,14 @@ class EndScreen extends BaseWidget {
   @override
   void onTapDown(TapDownDetails detail, Function fn) {
     _play.onTapDown(detail, () {
-      screenManager.switchScreen(ScreenState.kPlayScreen);
+      AdsManager.instance.playNewAd(() {
+        screenManager.switchScreen(ScreenState.kPlayScreen);
+      });
     });
     _home.onTapDown(detail, () {
-      screenManager.switchScreen(ScreenState.kMenuScreen);
+      AdsManager.instance.playNewAd(() {
+        screenManager.switchScreen(ScreenState.kMenuScreen);
+      });
     });
   }
 

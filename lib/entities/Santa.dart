@@ -5,6 +5,7 @@ class Santa extends AnimatedEntity {
     String aniPath,
     double yOffset,
     Function onComplete,
+    Function onHit,
     Function onDie,
   ) : super(
           aniPath,
@@ -14,6 +15,7 @@ class Santa extends AnimatedEntity {
           0.05,
           yOffset,
           onComplete,
+          onHit,
           onDie,
         );
 

@@ -20,6 +20,8 @@ class PlayGround extends BaseWidget {
   StaticEntity _pauseButton;
   StaticEntity _musicOn;
   StaticEntity _musicOff;
+  StaticEntity _songOn;
+  StaticEntity _songOff;
 
   bool _gameOver = false;
   bool _pause = false;
@@ -38,6 +40,8 @@ class PlayGround extends BaseWidget {
 
     _musicOn = StaticEntity('playground/music_on.png');
     _musicOff = StaticEntity('playground/music_off.png');
+    _songOn = StaticEntity('playground/song_on.png');
+    _songOff = StaticEntity('playground/song_off.png');
   }
   @override
   void onTapDown(TapDownDetails detail, Function fn) {
@@ -54,6 +58,9 @@ class PlayGround extends BaseWidget {
           userData.toggleMusic();
           musicPlayer.update();
         });
+        _songOn.onTapDown(detail, () {
+          userData.toggleSong();
+        });
       }
     }
   }
@@ -68,6 +75,11 @@ class PlayGround extends BaseWidget {
       _musicOn.render(canvas);
     else
       _musicOff.render(canvas);
+    if (userData.shallPlaySong()) {
+      _songOn.render(canvas);
+    } else {
+      _songOff.render(canvas);
+    }
 
     if (_pause) {
       _pauseWidget.render(canvas);
@@ -99,6 +111,19 @@ class PlayGround extends BaseWidget {
       xR: kPlaygroundMusicButtonXRatio,
       yR: kPlaygroundMusicButtonYRatio,
     );
+
+    _songOn.resize(
+      wR: kPlaygroundButtonWidthRatio,
+      hR: kPlaygroundButtonHeightRatio,
+      xR: kPlaygroundSongButtonXRatio,
+      yR: kPlaygroundSongButtonYRatio,
+    );
+    _songOff.resize(
+      wR: kPlaygroundButtonWidthRatio,
+      hR: kPlaygroundButtonHeightRatio,
+      xR: kPlaygroundSongButtonXRatio,
+      yR: kPlaygroundSongButtonYRatio,
+    );
   }
 
   @override
@@ -114,18 +139,5 @@ class PlayGround extends BaseWidget {
         }
       }
     }
-
-    _musicOn.resize(
-      wR: kPlaygroundButtonWidthRatio,
-      hR: kPlaygroundButtonHeightRatio,
-      xR: kPlaygroundMusicButtonXRatio,
-      yR: kPlaygroundMusicButtonYRatio,
-    );
-    _musicOff.resize(
-      wR: kPlaygroundButtonWidthRatio,
-      hR: kPlaygroundButtonHeightRatio,
-      xR: kPlaygroundMusicButtonXRatio,
-      yR: kPlaygroundMusicButtonYRatio,
-    );
   }
 }

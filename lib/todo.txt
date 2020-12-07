@@ -1,5 +1,3 @@
 TODO:
-- icon
-- publish
-- promo video
 - Share with friends
+- Ads

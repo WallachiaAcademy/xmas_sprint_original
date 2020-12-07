@@ -33,20 +33,23 @@ const double kPlaygroundButtonWidthRatio = 0.08;
 const double kPlaygroundButtonHeightRatio = 0.09;
 
 const double kPlaygroundPauseButtonXRatio = 0.9;
-const double kPlaygroundPauseButtonYRatio = 0.9;
+const double kPlaygroundPauseButtonYRatio = 0.87;
 
 const double kPlaygroundMusicButtonXRatio = 0.8;
-const double kPlaygroundMusicButtonYRatio = 0.9;
+const double kPlaygroundMusicButtonYRatio = 0.87;
+
+const double kPlaygroundSongButtonXRatio = 0.7;
+const double kPlaygroundSongButtonYRatio = 0.87;
 
 const double kPlaygroundHpWidthRatio = 0.0675;
 const double kPlaygroundHpHeightRatio = 0.12;
-const double kPlaygroundHpXRatio = 0.8;
-const double kPlaygroundHpYRatio = 0.88;
+const double kPlaygroundHpXRatio = 0.7;
+const double kPlaygroundHpYRatio = 0.85;
 const double kPlaygroundHpGapRatio = 1.1;
 
 const double kPlaygroundScoreFontRatio = 0.08;
 const double kPlaygroundScoreXRatio = 0.01;
-const double kPlaygroundScoreCenterYRatio = 0.94;
+const double kPlaygroundScoreCenterYRatio = 0.91;
 
 // Enemies
 const double kEnemyWidthRatio = 0.15;
